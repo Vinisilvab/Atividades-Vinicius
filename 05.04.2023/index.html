@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Identificação</legend>
+                <label for="cNome">Nome</label>
+                <input type="text" required id="cNome"><br>
+                <br>
+                <input type="submit" value="Mostrar" style="background-color: blue;" ><br>
+                <p>Onde voçê mora?</p> <!---->
+                <input type="radio" name="">
+                <label for="">Cidade</label><br>
+                <input type="radio">
+                <label for="">Interior</label>
+        </fieldset>
+        <fieldset>
+            <legend>Meio de transporte</legend>
+        <p>Qual é o seu meio de transporte?</p>
+        <input type="checkbox">
+        <label for="">Bicicleta</label><br>
+        <input type="checkbox">
+        <label for="">Onibus</label><br>
+        <input type="checkbox">
+        <label for="">metrô/trem</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Seu time</legend>
+        <p>Selecione o seu time</p>
+        <select name="" id="">
+            <option value="Palmeiras">Palmeiras</option>
+            <option value="Agua Santa">Agua Santa</option>
+            <option value="SBC">São Bernardo</option>
+            <option value=""></option>
+            <option value=""></option>
+        </select><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Sua Cidade</legend>
+        <p>Escolha sua Cidade</p>
+        <label for="">Cidade</label>
+        <input autocomplete="on" list="Cidade" placeholder="Sua Cidade">
+        <datalist id="Cidade">
+            <option value="São Paulo">São Paulo</option>
+            <option value="Bahia">Bahia</option>
+            <option value="Minas Gerais">Minas Gerais</option>
+            <option value="Rio de Janeiro">Rio de Janeiro</option>
+
+        </datalist>
+        <br><br>
+        </fieldset>
+        0 <input type="range" > 100
+        <br><br>
+
+        <p>Sugestões, elogios e críticas </p>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+
+        <br><input type="submit" value="encaminhar">
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+table{
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    width: 300px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.estilo{
+    background-color: darkgreen;
+    color: white;
+                    
+}
+.estilo2{
+    color: darkgreen;
+    background-color: darkgray;
+}
+th{
+    border-style: solid;
+    border-color: black;
+}
+td{
+    border-style: solid;
+    border-color: black;
+}

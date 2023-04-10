@@ -1,0 +1,25 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 100px;
+    background-color: darkcyan;
+    text-align: justify;
+}
+p{
+    text-align: justify;
+}
+h1{
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+a{
+    text-align: center;
+}
+.links{
+    text-align: center;
+    font-size: 1,5em;
+}
